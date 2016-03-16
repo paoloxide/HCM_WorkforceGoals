@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDFC Regression Test" verbose="2">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<!--test name="Validate ExcelFile Values">     
+  	 <classes> 
+    	<parameter name="TestNo" value="Test Case 1"> 
+ 			<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter> 
+     		<parameter name="ExcelSheetName" value="Configure Offerings"></parameter> 
+      	 	<class name="hcm.tests.ExcelFileValidation"/>       
+      	 </parameter> 
+     </classes> 
+   	</test-->
+   	
+   	<!--test name="Validate ExcelFile Values">     
+  	 <classes> 
+    	<parameter name="TestNo" value="Test Case 1"> 
+ 			<parameter name="ExcelFilePath" value="C:\\Users\\User\\Downloads\\HCM-Configs\\SampleTestData.xlsx"></parameter> 
+     		<parameter name="ExcelSheetName" value="Configure Offerings"></parameter> 
+      	 	<class name="hcm.tests.ExcelFileValidation"/>       
+      	 </parameter> 
+     </classes> 
+   	</test-->
+	
+	
+ 	<!--test name="Manage Departments 1">
+  	 <classes> 
+    	<parameter name="TestNo" value="Test Case 1"> 
+ 			<parameter name="ExcelFilePath" value="C:\\Users\\User\\Downloads\\HCM-Configs\\DepartmentCreation.xlsx"></parameter> 
+     		<parameter name="ExcelSheetName" value="Manage Department"></parameter> 
+      		<class name="hcm.tests.ManageDepartmentsTest"/>       
+      	</parameter> 
+     </classes> 
+   	</test-->    
+   	
+   	<!--test name="Manage Performance">
+  	 <classes> 
+    	<parameter name="TestNo" value="Test Case 17"> 
+ 			<parameter name="ExcelFilePath" value="C:\\Users\\User\\Downloads\\HCM-Configs\\SampleTestData.xlsx"></parameter> 
+     		<parameter name="ExcelSheetName" value="Configure Offerings"></parameter> 
+      		<class name="hcm.tests.ManagePerformanceRolesTest"/>       
+      	</parameter> 
+     </classes> 
+   	</test-->  
+   	
+   	<test name="Manage Worker Goal Setting">
+  	 <classes> 
+    	<parameter name="TestNo" value="Test Case 1"> 
+ 			<parameter name="ExcelFilePath" value="//var//jenkins_home//jobs//Oracle//jobs//HCM//jobs//Build//workspace//SampleTestData.xlsx"></parameter> 
+     		<parameter name="ExcelSheetName" value="ManageWorkerGoalSetting"></parameter> 
+      		<class name="hcm.tests.ManageWorkerGoalSettingLookups"/>       
+      	</parameter> 
+     </classes> 
+   	</test>  
+
+	<!--test name="Configure Offerings 1">    
+ 	 <classes>
+   	 	<parameter name="TestNo" value="Test Case 12">
+			<parameter name="ExcelFilePath" value="//var//jenkins_home//jobs//Oracle//jobs//HCM//jobs//Build//workspace//SampleTestData.xlsx"></parameter>
+				<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    			<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 		<class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>
+	
+	<test name="Configure Offerings 2">    
+ 	 <classes>
+   	 	<parameter name="TestNo" value="Test Case 12">
+			<parameter name="ExcelFilePath" value="C:\\Users\\User\\Downloads\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    		<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 	<class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	</parameter>
+      </classes>
+  	</test> 
+	
+	<test name="Configure Offerings 3">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 3">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test> 
+	
+	<test name="Configure Offerings 4">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 4">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test> 
+	
+	<test name="Configure Offerings 5">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 5">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test> 
+	
+	<test name="Configure Offerings 6">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 6">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test> 
+	
+		
+	<test name="Configure Offerings 7">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 7">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 8">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 8">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 9">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 9">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 10">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 10">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 11">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 11">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 12">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 12">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 13">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 13">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 14">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 14">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 15">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 15">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 16">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 16">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 17">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 17">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 18">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 18">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test>	
+	<test name="Configure Offerings 19">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 19">
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test-->
+	
+  	
+  	<!--test name="Configure Offerings 2">    
+ 	 <classes>
+   	 <parameter name="TestNo" value="Test Case 2">
+		<parameter name="ExcelFilePath" value="//var//jenkins_home//jobs//Oracle//jobs//HCM//jobs//Build//workspace//SampleTestData.xlsx"></parameter>
+		<parameter name="ExcelFilePath" value="C:\\Users\\jerrick.m.falogme\\Desktop\\my_workspace\\HCM-Configs\\SampleTestData.xlsx"></parameter>
+    	<parameter name="ExcelSheetName" value="Configure Offerings2"></parameter>
+     	 <class name="hcm.tests.ConfigureOfferingsTest"/>      
+     	 </parameter>
+      </classes>
+  	</test--> 
+  	
+<!--   	<test name="Compensation Management">     -->
+<!--  	 <classes> -->
+<!--    	 <parameter name="TestNo" value="Test Case 1"> -->
+<!-- 		<parameter name="ExcelFilePath" value="C:\\Workspace\\hcmselenium\\src\\hcm\\testdata\\SampleTestData.xlsx"></parameter> -->
+<!--     	<parameter name="ExcelSheetName" value="Compensation Management"></parameter> -->
+<!--      	 <class name="hcm.tests.CompensationManagementTest"/>       -->
+<!--      	 </parameter> -->
+<!--     	</classes> -->
+<!--   	</test>      -->
+  
+
+</suite> 
